@@ -10,8 +10,10 @@ guess_count=0
 input_word=""
 
 while input_word!= 'Exit':
-    input_word=input("enter the word for guess")
-    if input_word in  rndm_guess:
+    input_word=input("guess the word")
+    for w in rndm_guess:
+        print("_")
+    if input_word == rndm_guess:
         print("you guess it write")
         exit()
     elif input_word =='Exit':
