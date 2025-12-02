@@ -16,7 +16,7 @@ def getdata(url):
 
 
 
-res = getdata("https://www.accuweather.com/en/in/mumbai/204842/weather-forecast/204842")
+res = getdata("you site url")
 
 
 
